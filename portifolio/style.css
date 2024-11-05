@@ -31,15 +31,22 @@ body {
   transition: .2s;
 }
 
-h2 .titulo {
+h2.titulo {
   color: #fff;
   font-size: 38px;
   text-align: center;
 } 
 
-h2 .titulo span {
+h2.titulo span {
   color: #00ff08;
 }
+
+
+button:hover {
+  box-shadow: 0px 0px 8px #00ff08;
+  transform: scale(1.05);
+}
+
 /* HEADER */
 
 header {
@@ -75,16 +82,11 @@ header nav ul li {
 }
 
 
-.btn-contato button:hover {
-  box-shadow: 0px 0px 8px #00ff08;
-  transform: scale(1.05);
-}
-
-header .interface .logo a img {
+header.interface .logo a img {
   border-radius: 50px
 }
 
-section .topo-do-site {
+section.topo-do-site {
   padding: 40px 4%;
 }
 
@@ -123,11 +125,11 @@ section.topo-do-site .flex {
   }
 }
 
-section .especialidades {
+section.especialidades {
   padding: 40px 4%;
 }
 
-section .especialidades {
+section.especialidades {
   gap: 60px;
 }
 
@@ -152,3 +154,47 @@ section .especialidades {
   font-size: 28px;
   margin: 15px 0;
 }
+
+
+
+section.sobre {
+  padding: 120px 4%;
+}
+
+section.sobre .flex {
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre {
+  color: #fff;
+}
+
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+  color: #00ff08;
+  display: block;
+}
+
+.sobre .txt-sobre p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #00ff08;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: .2s;
+}
+
