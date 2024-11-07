@@ -250,3 +250,7 @@ section.portfolio .flex {
   color: #fff;
   text-decoration: none;
 }
+
+.overlay a:hover {
+  text-decoration: underline;
+}
