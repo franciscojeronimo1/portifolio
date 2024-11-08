@@ -42,10 +42,12 @@ h2.titulo span {
 }
 
 
-button:hover {
+button:hover, form .btn-enviar input:hover {
   box-shadow: 0px 0px 8px #00ff08;
   transform: scale(1.05);
 }
+
+
 
 /* HEADER */
 
@@ -186,7 +188,7 @@ section.sobre .flex {
   text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
+.btn-social button {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -201,7 +203,7 @@ section.sobre .flex {
 
 section.portfolio {
   padding: 80px 4%;
-  box-shadow: 0 0 40px 10px #ffffff33;
+  box-shadow: 0 0 10px 10px #ffffff10;
 }
 
 section.portfolio .flex {
@@ -253,4 +255,79 @@ section.portfolio .flex {
 
 .overlay a:hover {
   text-decoration: underline;
+}
+
+
+section.formulario {
+  padding: 100px 4%;
+}
+
+form {
+  max-width: 500px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+
+
+form input, form textarea {
+  width: 100%;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+form textarea {
+  resize: none;
+  height: 200px;
+}
+
+form .btn-enviar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .btn-enviar input[type=submit] {
+  width: 120px;
+  background-color: #00ff08;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .2s;
+}
+
+
+footer {
+  padding: 60px 4%;
+  box-shadow: 0 0 10px 10px #ffffff10;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .line-footer {
+  padding: 20px 0;
+
+}
+
+.borda {
+  border-top: 2px solid #00ff08;
+}
+
+footer .line-footer p i {
+  color: #00ff08;
+  font-size: 22px;
+}
+
+footer .line-footer p a {
+  color: #fff;
 }
