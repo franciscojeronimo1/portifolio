@@ -211,7 +211,7 @@ section.portfolio .flex {
   margin-top: 60px;
 }
 
-.img-port {
+.img-port   {
   width: 360px;
   height: 460px;
   background-size: cover;
@@ -221,6 +221,23 @@ section.portfolio .flex {
   border-radius: 40px;
   position: relative;
 }
+
+.img-port2 {
+  width: 360px;
+  height: 460px;
+  background-size: cover;
+  background-position: center;
+  transition: 4s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+}
+
+
+.img-port2:hover {
+  background-position:right;
+}
+
 
 .img-port:hover {
   background-position: 100% 100%;
