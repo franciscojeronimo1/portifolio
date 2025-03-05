@@ -35,14 +35,15 @@ h2.titulo {
   color: #fff;
   font-size: 38px;
   text-align: center;
-} 
+}
 
 h2.titulo span {
   color: #00ff08;
 }
 
 
-button:hover, form .btn-enviar input:hover {
+button:hover,
+form .btn-enviar input:hover {
   box-shadow: 0px 0px 8px #00ff08;
   transform: scale(1.05);
 }
@@ -55,7 +56,7 @@ header {
   padding: 30px 4%;
 }
 
-header > .interface {
+header>.interface {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -108,7 +109,7 @@ section.topo-do-site .flex {
   color: #00ff08;
 }
 
-.topo-do-site .txt-topo-site p  {
+.topo-do-site .txt-topo-site p {
   color: #fff;
   margin: 40px 0;
 }
@@ -122,6 +123,7 @@ section.topo-do-site .flex {
   0% {
     top: 0;
   }
+
   100% {
     top: 30px;
   }
@@ -152,6 +154,7 @@ section.especialidades {
   font-size: 70px;
   color: #00ff08;
 }
+
 .especialidades .especialidades-box h3 {
   font-size: 28px;
   margin: 15px 0;
@@ -211,7 +214,7 @@ section.portfolio .flex {
   margin-top: 60px;
 }
 
-.img-port   {
+.img-port {
   width: 360px;
   height: 460px;
   background-size: cover;
@@ -235,7 +238,7 @@ section.portfolio .flex {
 
 
 .img-port2:hover {
-  background-position:right;
+  background-position: right;
 }
 
 
@@ -309,4 +312,94 @@ footer .line-footer p i {
 
 footer .line-footer p a {
   color: #fff;
+}
+
+
+@media screen and (max-width: 1020px) {
+
+  /*GERAL          */
+  .flex {
+    flex-direction: column;
+  }
+
+  h2.titulo {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  .topo-do-site .flex {
+    flex-direction: column-reverse;
+  }
+
+  /* CABEÇALHO */
+  .menu-desktop,
+  .btn-contato {
+    display: none;
+  }
+
+  /* TOPO DO SITE */
+  section.topo-do-site .flex {
+    gap: 40px;
+  }
+
+  section.topo-do-site {
+    padding: 20px 8%;
+  }
+
+  .topo-do-site h1 {
+    font-size: 30px;
+  }
+
+  .topo-do-site .img-topo-site img {
+    width: 100%;
+  }
+
+  /* ESPECIALIDADES */
+  section.especialidades {
+    padding: 40px 8%;
+  }
+
+  /* SOBRE */
+  section.sobre {
+    padding: 80px 8%;
+  }
+
+  .sobre .txt-sobre h2 {
+    font-size: 34px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .btn-social {
+    text-align: center;
+  }
+
+  .img-sobre img {
+    width: 100%;
+  }
+
+  /* PORTIFOLIO */
+  section.portifolio {
+    padding: 80px 8%;
+  }
+
+  .img-port {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  section.portfolio .flex {
+    gap: 60px;
+  }
+
+  /* FOOTER */
+  footer .flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer .line-footer {
+    text-align: center;
+  }
 }
