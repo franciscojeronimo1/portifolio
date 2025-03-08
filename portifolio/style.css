@@ -108,6 +108,10 @@ header.interface .logo a img {
   transition: .5s;
 }
 
+.btn-abrir-menu {
+  display: none;
+}
+
 .menu-mobile.abrir-menu {
   width: 70%;
 }
@@ -465,5 +469,9 @@ footer .line-footer p a {
 
   footer .line-footer {
     text-align: center;
+  }
+
+  .btn-abrir-menu {
+    display: block;
   }
 }
