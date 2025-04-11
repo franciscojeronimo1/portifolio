@@ -299,6 +299,7 @@ section.portfolio .flex {
   position: relative;
 }
 
+
 .img-port2 {
   width: 360px;
   height: 460px;
@@ -314,6 +315,9 @@ section.portfolio .flex {
 .img-port2:hover {
   background-position: right;
 }
+
+
+
 
 
 .img-port:hover {
