@@ -1,3 +1,3 @@
 # portfolio
  
-https://franciscojeronimo1.github.io/portifolio/portifolio/
+https://franciscojeronimo1.github.io/portfolio/portfolio/
